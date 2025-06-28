@@ -4,9 +4,9 @@ import pymysql
 def connect_to_db():
     return pymysql.connect(
         host="localhost",
-        user="testabs",
-        password="need2know!",
-        database="test_asbestos"
+        user="root",
+        password="password",
+        database="db_name"
     )
 
 def fetch_data(query):

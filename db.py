@@ -7,7 +7,7 @@ def connect_to_db():
         user="jay",
         port= 8889,
         password="home1234",
-        database="test_asbestos"
+        database="db_name"
     )
 
 # db = connect_to_db()
